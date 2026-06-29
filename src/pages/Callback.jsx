@@ -10,7 +10,7 @@ function Callback() {
 
         console.log("Authorization Code:", code);
 
-        fetch("http://localhost:5000/oauth/token", {
+        fetch("https://salesforce-validation-manager-backend-kpl5.onrender.com/oauth/token", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

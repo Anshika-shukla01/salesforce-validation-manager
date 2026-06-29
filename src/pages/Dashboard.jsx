@@ -8,7 +8,7 @@ function Dashboard() {
     const instanceUrl = localStorage.getItem("instanceUrl");
 
     const response = await fetch(
-      "http://localhost:5000/validation-rules",
+      "https://salesforce-validation-manager-backend-kpl5.onrender.com/validation-rules",
       {
         headers: {
           Authorization: `Bearer ${accessToken}`,

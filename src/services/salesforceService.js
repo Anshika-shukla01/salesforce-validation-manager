@@ -2,7 +2,7 @@ import { generatePKCE } from "./pkceService";
 
 const CLIENT_ID = "3MVG9GCMQoQ6rpzTc77yeL5sLYv4X6ZzAcecVP6.2olzn3Pfj7NSD0gN3bphfpsVLW_CYLJA9L56ColduwjzF";
 
-const REDIRECT_URI = "http://localhost:5173/callback";
+const REDIRECT_URI = "https://salesforce-validation-manager-six.vercel.app/callback";
 
 const LOGIN_URL = "https://login.salesforce.com";
 
